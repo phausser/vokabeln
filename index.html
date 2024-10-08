@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Vokabeln</title>
+    <style>
+        body {
+            background-color: #f8f8f8;
+            color: 333;
+        }
+
+        body {
+            font-family: verdana, lucida;
+            font-size: 70px;
+        }
+
+        div {
+            text-align: center;
+            padding: 10px;
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            border: 5px solid black;
+            font-size: 40px;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+        }
+
+        #solution {
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        #word2 {
+            font-weight: bold;
+        }
+
+        #solution button {
+            display: inline-block;
+            margin: 0 auto;
+        }
+
+        #right {
+            background-color: lightgreen;
+        }
+
+        #wrong {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="word1">foo</div>
+    <div id="solve"><button>Lösen</button></div>
+    <div id="word2">foo</div>
+    <div id="solution">
+        <button id="right">Richtig</button>
+        <button id="wrong">Falsch</button>
+    </div>
+</body>
+
+<script>
+    function write_text(id, text) {
+        document.getElementById(id).innerHTML = text
+    }
+
+    function turn_visibility(id, mode) {
+        document.getElementById(id).style.visibility = mode ? "visible" : "hidden"
+    }
+
+    function add_click(id, f) {
+        document.getElementById(id).addEventListener("click", f)
+    }
+
+    function turn_on(id) {
+        turn_visibility(id, true)
+    }
+
+    function turn_off(id) {
+        turn_visibility(id, false)
+    }
+
+    function show_solution() {
+        console.log(words)
+        console.log(index)
+
+        turn_on("word2")
+        turn_on("solution")
+        turn_off("solve")
+    }
+
+    function show_word() {
+        console.log(words)
+        console.log(index)
+
+        turn_on("word2")
+        turn_on("solution")
+        turn_off("solve")
+    }
+
+    function next_word() {
+        index = (index + 1) % (words.length / 2)
+    }
+
+    function remove_current_word() {
+        words.splice(index * 2, 2)
+        index = index % (words.length / 2)
+    }
+
+    function all_words_solved() {
+        return words.length == 0
+    }
+
+    function right_solution() {
+        remove_current_word()
+
+        if (all_words_solved()) {
+            winning_screen()
+        } else {
+            show_word()
+        }
+    }
+
+    function wrong_solution() {
+        next_word()
+        show_word()
+    }
+
+    function init() {
+        add_click("solve", () => { show_solution() })
+        add_click("right", () => { right_solution() })
+        add_click("wrong", () => { wrong_solution() })
+    }
+
+    function winning_screen() {
+        write_text("word1", "Gewonnen :)")
+        turn_off("word2")
+        turn_off("solve")
+        turn_off("solution")
+    }
+
+    function show_word() {
+        write_text("word1", words[index * 2 + 1])
+        write_text("word2", words[index * 2 + 0])
+        turn_on("word1")
+        turn_on("solve")
+        turn_off("word2")
+        turn_off("solution")
+    }
+
+    function randomize_words() {
+        for (let i = 0; i < words.length; i += 2) {
+            let j = Math.floor(Math.random() * words.length / 2) * 2
+            let tmp = words[i]
+            words[i] = words[j]
+            words[j] = tmp
+
+            tmp = words[i + 1]
+            words[i + 1] = words[j + 1]
+            words[j + 1] = tmp
+        }
+    }
+
+    let words = [
+        "blue", "blau",
+        "green", "grün",
+        "brown", "braun",
+        "orange", "orange",
+        "grey", "grau",
+        "pink", "pink",
+        "purple", "lila",
+        "white", "weiß",
+        "black", "schwarz",
+        "one", "eins",
+        "two", "zwei",
+        "three", "drei",
+        "four", "vier",
+        "five", "fünf",
+        "six", "sechs",
+        "seven", "sieben",
+        "eight", "acht",
+        "nine", "neun",
+        "ten", "zehn",
+        "eleven", "elf",
+        "twelve", "zwölf",
+
+        // p. 8
+        "Here we go.", "Los geht's.",
+        "Hello", "Hallo",
+        "My name is Justin.", "Ich heiße Justin.",
+        "I'm from Plymouth.", "Ich komme aus Plymouth.",
+        "I'm twelve years old.", "Ich bin zwölf Jahre alt.",
+        "I like...", "Ich mag...",
+        "the", "der/die/das; die",
+        "colour", "Farbe",
+        "red", "rot",
+        "What about you?", "Und du?/Und was ist mit dir?/Und ihr?/Und was ist mit euch?",
+        "what?", "was?",
+        "Justin's questions", "Justins Fragen",
+        "What's your name?", "Wie heißt du?",
+        "your", "dein/e, euer/eure, ihr/ihre",
+        "How old are you?", "Wie alt bist du?",
+        "Are you...?", "Bist du...?",
+        "Where are you from?", "Woher kommst du?",
+        "in England", "in England",
+        "where?", "wo?/wohin?",
+        "Meet your classmates.", "Triff deine Mitschüler./Lerne deine Mitschüler kennen.",
+        "classmate", "Klassenkamerade/Mitschüler",
+        "my favourite colour", "meine Lieblingsfarbe",
+        "and", "und",
+        "Yes, that's right.", "Ja, das ist richtig.",
+        "No, that's wrong.", "Nein, das ist falsch./Nein, das stimmt nicht.",
+        "a card (to)", "eine Karte (an)",
+        "seal", "Robbe",
+        "Let's go.", "Auf geht's.",
+        "(to) go", "gehen/fahren",
+        "Welcome to Plymouth.", "Willkommen in Plymouth.",
+        "to", "in; an; zu, nach",
+        "(to) look at", "anschauen/ansehen",
+        "map", "Landkarte; Stadtplan",
+        "of", "von",
+        "hometown", "Heimatstadt",
+        "town", "Stadt",
+        "too", "auch",
+        "on the map", "auf der Landkarte/dem Stadtplan",
+        "boy", "Junge",
+        "girl", "Mädchen",
+        "sea", "Meer",
+        "river", "Fluss",
+        "harbour", "Hafen",
+        "boat", "Boot",
+        "castle", "Schloss, Burg",
+        "tower", "Turm",
+        "(swimming) pool", "Schwimmbad, Schwimmbecken",
+        "big wheel", "Riesenrad",
+        "big", "groß",
+        "(to) see", "sehen",
+        "can", "können",
+        "picture", "Bild",
+        "tip", "Tipp",
+        "place", "Ort, Platz, Stelle",
+        "Silky's song", "Silkys Lied, Solkys Song",
+        "who?", "wer?",
+        "Is it Monday?", "Ist es Montag?",
+        "Monday", "Montag",
+        "Tuesday", "Dienstag",
+        "Wednesday", "Mittwoch",
+        "Thursday", "Donnerstag",
+        "Friday", "Freitag",
+        "Saturday", "Samstag",
+        "Sunday", "Sonntag",
+        "every day/colour/boat", "jeden Tag/jede Farbe/jedes Boot",
+        "great", "großartig",
+        "for", "für",
+        "kid", "Kind; Jugendliche(r)",
+        "photo", "Foto",
+        "Here's... (= Here is...)", "Hier ist...",
+        "Here are...", "Hier sind...",
+        "here", "hier",
+        "it's (= it is)", "er/sie/es ist",
+        "on Monday", "am Montag",
+        "she's (= she is)", "sie ist",
+        "at", "(in Ortsangaben) an, bei, in",
+        "rhyme", "Reim, Vers",
+        "There are...", "Es sind.../Es gibt...",
+        "There's...", "Es is.../Es gibt...",
+        "lots of.../a lot of...", "viel..., viel...",
+        "animal", "Tier",
+        "Follow me.", "Folg mir./Folgt mir.",
+
+        // p. 14
+        "zoo", "Zoo",
+        "bear", "Bär",
+        "elephant", "Elefant",
+        "giraffe", "Giraffe",
+        "lion", "Löwe",
+        "monkey", "Affe",
+        "pig", "Schwein",
+        "snake", "Schlange",
+        "whale", "Wal",
+        "good", "gut",
+        "pet", "Haustier",
+        "ant", "Ameise",
+        "bird", "Vogel",
+        "butterfly, pl Butterflies", "Schmetterling",
+        "cat", "Katze",
+        "dog", "Hund",
+        "frog", "Frosch",
+        "guinea pig", "Meerschweinchen",
+        "horse", "Pferd",
+        "rabbit", "Kaninchen",
+        "rat", "Ratte",
+        "an elephant", "ein Elefant",
+        "(to) think", "denken, glauben",
+        "or", "oder",
+        "but", "aber",
+        "...isn't a good pet (= is not)", "...ist kein gutes Haustier",
+
+        // p. 15
+        "strange", "seltsam, komisch",
+        "game", "Spiel",
+        "(to) say", "sagen",
+
+        // p. 16
+        "new", "neu",
+        "school", "Schule",
+        "class", "Klasse",
+        "Let me show you...", "Lass mich dir...zeigen.",
+        "me", "mich, mir",
+        "(to) show", "zeigen",
+        "our", "unser/e",
+        "classroom", "Klassenzimmer",
+        "board", "Tafel",
+        "cupboard", "Schrank",
+        "chair", "Stuhl",
+        "clock", "(Wand-, Stand-, Turm-)Uhr",
+        "watch", "Armbanduhr",
+        "door", "Tür",
+        "desk", "Schreibtisch",
+        "window", "Fenster",
+        "This is...", "Dies ist.../Das ist...",
+        "(to) come", "kommen",
+        "English", "Englisch; englische",
+        "lesson", "(Unterrichts)Stunde",
+
+        // p. 17
+        "school bag", "Schultasche",
+        "book", "Buch",
+        "exercise book", "Schulheft, Übungsheft",
+        "ruler", "Lineal",
+        "pen", "Kugelschreiber, Stift, Füller",
+        "pencil", "Bleistift",
+        "pen case", "Federmäppchen",
+        "glue stick", "Klebestift",
+        "glue", "Klebstoff",
+        "rubber", "Radiergummi",
+        "sharpener", "Anspitzer",
+        "now", "nun, jetzt",
+        "Simon says...", "Simon sagt...",
+        "(to) put", "legen, stellen, (etwas wohin) tun",
+        "(to) talk to", "reden (mit), sich unterhalten (mit)",
+        "teacher", "Lehrer/in",
+        "(to) open", "öffnen, aufmachen",
+        "(to) touch", "berühren, anfassen",
+        "(to) give", "geben",
+
+        // p. 18
+        "the first day", "der erste Tag",
+        "at school", "in der Schule",
+        "before school/lessons", "vor der Schule (vor Schulbeginn)/vorm dem Unterricht",
+        "her best friend", "ihr bester Freund/ihre beste Freundin",
+        "they're (= they are)", "sie sind",
+        "flat", "Wohnung",
+        "their first day", "ihr erster Tag",
+        "uniform", "Uniform",
+        "nice", "nett, schön",
+        "(to) know", "wissen; kennen",
+        "brother", "Bruder",
+        "sister", "Schwester",
+        "student", "Schüler/in; Student/in",
+        "he/she/it isn't... (= he/she/it is not)", "er/sie/es ist nicht...; er/sie/es ist kein...",
+
+        "his mum", "seine Mutter",
+        "mum", "Mama, Mutti",
+        "mother", "Mutter",
+        "dad", "Papa, Vati",
+        "father", "Vater",
+        "navy", "Marine",
+        "dark", "dunkel",
+        "Thank you.", "Danke.",
+        "with", "mit",
+        "without", "ohne",
+        "please", "bitte",
+        "You're late.", "Du bist spät dran/Du bist zu spät.",
+        "(to) wait (for)", "warten (auf)",
+        "minute", "Minute",
+        "What time is it?", "Wie spät ist es?",
+        "time", "Zeit; Uhrzeit",
+        "See you.", "Bis gleich./Bis bald.",
+
+        // p. 19
+        "profile", "Profil; Beschreibung, Porträt",
+        "library", "Bibliothek",
+        "home", "Heim, Zuhause",
+
+        // p. 20
+        "on the way to...", "auf dem Weg zu/nach...",
+        "you aren't (= you are not)", "du bist nicht...; du bist kein/e..., ihr seid nicht...; ihr seid kein/e...",
+        "there", "da, dort; dahin, dorthin",
+        "sad", "traurig",
+        "Don't go.", "Geh nicht.",
+        "Bye.", "Tschüs.",
+        "Watch out!", "Pass auf!/Vorsicht!",
+        "(I'm) sorry.", "Tut mir leid./Entschuldigung.",
+        "So?", "Und?/Na und?",
+        "Nice to meet you.", "Freut mich, dich/euch/Sie kennenzulernen.",
+        "(to) hurry up", "sich beeilen",
+        "friendly", "freundlich",
+
+        // p. 21
+        "shoe", "Schuh",
+        "trainer", "Turnschuh",
+        "(to) forget", "vergessen",
+        "(to) wear", "tragen (Kleidung)",
+        "British", "britisch",
+        "different", "verschieden; anders",
+        "(to) have", "haben",
+        "I don't like green.", "Ich mag Grün nicht./Ich mag kein Grün.",
+        "Have a go.", "Versuch's mal",
+
+        // p. 22
+        "language", "Sprache",
+        "form (of)", "Form (von)",
+        "long", "lang",
+        "short", "kurz",
+
+        // p. 23
+        "people", "Leute, Menschen",
+        "thing", "Sache, Ding",
+        "silly", "albern; blöd",
+        "sentence", "Satz",
+
+        // p. 24
+        "speaker", "Sprecher/in",
+        "(to) speak", "sprechen",
+        "about me/you/...", "über mich/dich/...",
+        "at 1 o'clock", "um 1 Uhr/um 13 Uhr",
+        "appointment", "Verabredung; Termin",
+
+        // p. 25
+        "when", "wenn",
+        "telephone (phone)", "Telefon",
+        "zero", "Null",
+        "o", "Null (in Telefonnummern)",
+        "double", "Doppel-",
+        "street", "Straße",
+
+        "twenty-one", "21",
+        "twenty-two", "22",
+        "twenty-three", "23",
+        "twenty-four", "24",
+        "twenty-five", "25",
+        "twenty-six", "26",
+        "thirty", "30",
+        "thirty-one", "31",
+        "thirty-two", "32",
+        "forty", "40",
+        "fifty", "50",
+        "sixty", "60",
+        "seventy", "70",
+        "eighty", "80",
+        "ninety", "90",
+        "a hundred/one hundred", "100"
+    ]
+
+    let index = 0
+    randomize_words()
+    init()
+    show_word()
+</script>
+
+</html>
