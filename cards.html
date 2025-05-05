@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vokabel-Quiz-App</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #board {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            background-color: #eee;
+        }
+
+        .card {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -100px;
+            margin-top: -150px;
+            width: 200px;
+            height: 300px;
+            background-color: #ffaa44;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.01);
+            font-size: 14px;
+            text-align: left;
+            transition: transform 0.3s ease-out;
+        }
+
+        .card .word {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px;
+            margin-top: 25px;
+        }
+        .card .translation {
+            font-size: 16px;
+            margin-top: 10px;
+            font-style: italic;
+            margin: 10px;
+        }
+
+        .moving {
+            transition: none;
+        }
+    </style>
+</head>
+<body>
+<div id="board">
+</div>
+<script src="https://hammerjs.github.io/dist/hammer.min.js"></script>
+<script src="./vocabulary.js"></script>
+<script>
+    const vocabulary2 = []
+    for (let i = 0; i < vocabulary.length - 1; i += 2) {
+        let item = {
+            word: vocabulary[i],
+            translation: vocabulary[i + 1]
+        }
+        vocabulary2.push(item)
+    }
+
+    console.log(vocabulary2)
+
+    const board = document.getElementById('board');
+    vocabulary2.forEach((item, index) => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `<div class="word">${item.word}</div><div class="translation">${item.translation}</div>`;
+        card.dataset.index = index;
+        board.appendChild(card);
+    });
+
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(card => {
+        const hammer = new Hammer(card);
+        hammer.get('pan').set({ direction: Hammer.DIRECTION_ALL });
+
+        hammer.on('pan', (ev) => {
+            card.classList.add('moving');
+            const ratio = ev.deltaX / window.innerWidth;
+            const clampedRatio = Math.max(-1, Math.min(1, ratio));
+            const rotation = clampedRatio * 45;
+            card.style.transform = `translate(${ev.deltaX}px, ${ev.deltaY}px) rotate(${rotation}deg)`;
+        });
+
+        hammer.on('panend', (ev) => {
+            card.classList.remove('moving');
+            const thresholdDistance = 100;
+            const thresholdVelocity = 0.5;
+            const keep = Math.abs(ev.deltaX) < thresholdDistance && Math.abs(ev.velocityX) < thresholdVelocity;
+
+            if (!keep) {
+                const direction = ev.deltaX > 0 ? 'right' : 'left';
+                const index = card.dataset.index;
+                if (direction === 'right') {
+                    console.log(`Bekannt: ${vocabulary[index].word}`);
+                } else {
+                    console.log(`Unbekannt: ${vocabulary[index].word}`);
+                }
+
+                const moveOutWidth = window.innerWidth * 1.5;
+                const toX = direction === 'right' ? moveOutWidth : -moveOutWidth;
+                const finalRotation = direction === 'right' ? 60 : -60;
+                card.style.transform = `translate(${toX}px, ${ev.deltaY}px) rotate(${finalRotation}deg)`;
+
+                setTimeout(() => {
+                    card.remove();
+                }, 300);
+            } else {
+                card.style.transform = '';
+            }
+        });
+    });
+</script>
+</body>
+</html>
