@@ -171,7 +171,7 @@
     const deckCount = document.getElementById('deck-count');
 
     function updateDeckCount() {
-        deckCount.textContent = `${deck.length} Karten`;
+        deckCount.textContent = `${deck.length}`;
     }
 
     function createCard(item, stackIndex = 0) {
@@ -261,7 +261,6 @@
     }
 
     function dragStart(e) {
-        e.preventDefault();
         if (e.type === 'touchstart') {
             startX = e.touches[0].clientX;
         } else {
@@ -275,6 +274,7 @@
         if (!isDragging) return;
 
         if (e.type === 'touchmove') {
+            e.preventDefault();
             currentX = e.touches[0].clientX - startX;
         } else {
             currentX = e.clientX - startX;
