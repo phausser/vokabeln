@@ -1,5 +1,4 @@
 const vocabulary = [
-    /*
     "blue", "blau",
     "green", "grün",
     "brown", "braun",
@@ -871,7 +870,6 @@ const vocabulary = [
     // p. 97
     "sign", "Schild; Zeichen",
     "the same as...", "der-/die-/dasselbe wie...",
-    */
 
     // p. 98
     "What's your poster about?", "Wovon handelt dein Poster? / Worum geht es bei deinem Poster?",
