@@ -157,7 +157,7 @@ function dragEnd() {
 }
 
 function getCurrentItem() {
-    const de = currentCards[0].querySelector('.front').textContent;
+    const de = currentCards[0].querySelector('.back').textContent;
     return vocab.find(v => v.de === de);
 }
 
