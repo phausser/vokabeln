@@ -1,6 +1,11 @@
-const vocab = vocabulary.map((word, index) => {
-    return {de: word, en: vocabulary[index + 1]};
-}).filter((_, index) => index % 2 === 0);
+const vocab = [];
+for (let i = 0; i < vocabulary.length - 1; i += 2) {
+    vocab.push({ de: vocabulary[i], en: vocabulary[i + 1] });
+}
+for (let i = vocab.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [vocab[i], vocab[j]] = [vocab[j], vocab[i]];
+}
 
 let deck = [...vocab];
 let currentCards = [];
