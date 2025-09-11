@@ -1,5 +1,5 @@
 const vocabulary = [
-
+    /*
     // Unit 1
     // p.8-9
     "summer", "Sommer",
@@ -57,4 +57,34 @@ const vocabulary = [
     "country", "Land (Staat)",
     "building", "Gebäude",
     "if", "wenn, falls",
+    */
+
+    "(to) bring", "(mit-, her-)bringen",
+    "one more time", "noch einmal, noch ein Mal",
+    "time", "Mal",
+
+    // p.11
+    "past", "Vergangenheit",
+
+    // p.12
+    "train", "Zug",
+    "island", "Insel",
+    "campsite", "Zeltplatz",
+    "lake", "(Binnen-)See",
+    "shopping mall", "(großes) Einkaufszentrum",
+    "rainy", "regnerisch",
+
+    // p.13
+    "paragraph", "Absatz (in einem Text)",
+    "expensive", "teuer",
+    "cheap", "billig, preiswert",
+    "chips", "Pommes frites",
+    "sky", "Himmel",
+    "top", "Spitzen-",
+    "drawing", "Zeichnung",
+    "(to) draw", "zeichnen",
+    "order", "Reihenfolge",
+    "(to) think of sth.", "sich etwas ausdenken; an etwas denken",
+    "another", "ein(e) andere(r, s); noch ein(e)",
+    "(to) arrange", "anordnen",
 ]
