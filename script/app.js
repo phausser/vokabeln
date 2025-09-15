@@ -1,6 +1,6 @@
 const vocab = [];
 for (let i = 0; i < vocabulary.length - 1; i += 2) {
-    vocab.push({ de: vocabulary[i], en: vocabulary[i + 1] });
+    vocab.push({ en: vocabulary[i], de: vocabulary[i + 1] });
 }
 for (let i = vocab.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -27,8 +27,8 @@ function createCard(item, stackIndex = 0) {
         card.classList.add(`stack-${stackIndex}`);
     }
     card.innerHTML = `
-                <div class="front">${item.en}</div>
-                <div class="back">${item.de}</div>
+                <div class="front">${item.de}</div>
+                <div class="back">${item.en}</div>
             `;
 
     if (stackIndex === 0) {
@@ -65,6 +65,10 @@ function loadCards() {
 }
 
 function loadNextCard() {
+    currentCards[0].remove();
+    currentCards.shift();
+    deck.shift();
+
     if (deck.length === 0) {
         alert('Alle Vokabeln gemeistert!');
         currentCards.forEach(card => card.remove());
@@ -72,10 +76,6 @@ function loadNextCard() {
         updateDeckCount();
         return;
     }
-
-    currentCards[0].remove();
-    currentCards.shift();
-    deck.shift();
 
     currentCards.forEach((card, index) => {
         card.classList.remove(`stack-${index + 1}`);
@@ -162,8 +162,24 @@ function dragEnd() {
 }
 
 function getCurrentItem() {
-    const de = currentCards[0].querySelector('.back').textContent;
+    const de = currentCards[0].querySelector('.front').textContent;
     return vocab.find(v => v.de === de);
 }
+
+document.addEventListener('keydown', function(e) {
+    if (e.key === 't' || e.key === 'T') {
+        const shuffled = [...vocab].sort(() => Math.random() - 0.5);
+        const selected = shuffled.slice(0, 20);
+        const printWindow = window.open('', '', 'width=400,height=600');
+
+        printWindow.document.write('<ol>');
+        selected.forEach((item, i) => {
+            printWindow.document.write(`<li>${item.de}</li>`);
+        });
+        printWindow.document.write('</ol>');
+        printWindow.document.close();
+        printWindow.print();
+    };
+})
 
 loadCards()
