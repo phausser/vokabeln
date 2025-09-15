@@ -1,5 +1,4 @@
 const vocabulary = [
-    /*
     // Unit 1
     // p.8-9
     "summer", "Sommer",
@@ -57,8 +56,6 @@ const vocabulary = [
     "country", "Land (Staat)",
     "building", "Gebäude",
     "if", "wenn, falls",
-    */
-
     "(to) bring", "(mit-, her-)bringen",
     "one more time", "noch einmal, noch ein Mal",
     "time", "Mal",
