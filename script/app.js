@@ -172,9 +172,14 @@ document.addEventListener('keydown', function(e) {
         const selected = shuffled.slice(0, 20);
         const printWindow = window.open('', '', 'width=400,height=600');
 
-        printWindow.document.write('<ol>');
+        printWindow.document.write('<ol style="break-after:page">');
         selected.forEach((item, i) => {
             printWindow.document.write(`<li>${item.de}</li>`);
+        });
+        printWindow.document.write('</ol>');
+        printWindow.document.write('<ol>');
+        selected.forEach((item, i) => {
+            printWindow.document.write(`<li>${item.en}</li>`);
         });
         printWindow.document.write('</ol>');
         printWindow.document.close();
