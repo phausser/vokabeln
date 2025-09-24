@@ -1,4 +1,5 @@
 const vocabulary = [
+    /*
     // Unit 1
     // p.8-9
     "summer", "Sommer",
@@ -84,4 +85,27 @@ const vocabulary = [
     "(to) think of sth.", "sich etwas ausdenken; an etwas denken",
     "another", "ein(e) andere(r, s); noch ein(e)",
     "(to) arrange", "anordnen",
+    */
+
+    // Part B
+    "neighbour", "Nachbar/in",
+    "note", "Notiz, Mitteilung",
+    "tea", "leichte Nachmittags- oder Abendmahlzeit",
+    "Love, ...", "Alles Liebe, ... / Liebe Grüße, ...",
+    "this afternoon/evening/...", "heute Nachmittag/Abend/...",
+    "son", "Sohn",
+    "daugther", "Tochter",
+    "..., you see.", "..., weißt du.",
+    "lonely", "einsam",
+    "(to) be busy", "beschäftigt sein; viel zu tun haben",
+    "I'm sorry about ...", "Es tut mir leid wegen ...",
+    "already", "schon, bereits",
+    "(to) invite sb. (to)", "jdn. einladen (zu)",
+    "only", "erst",
+    "(to) move in", "einziehen",
+    "a week ago", "vor einer Woche",
+    "problem", "Problem",
+    "threw", "Vergangenheitsform von 'throw'",
+    "heard", "Vergangenheitsform von 'hear'",
+    "news", "Nachrichten; Neuigkeiten",
 ]
