@@ -88,6 +88,7 @@ const vocabulary = [
     */
 
     // Part B
+    /*
     "neighbour", "Nachbar/in",
     "note", "Notiz, Mitteilung",
     "tea", "leichte Nachmittags- oder Abendmahlzeit",
@@ -105,7 +106,20 @@ const vocabulary = [
     "(to) move in", "einziehen",
     "a week ago", "vor einer Woche",
     "problem", "Problem",
-    "threw", "Vergangenheitsform von 'throw'",
-    "heard", "Vergangenheitsform von 'hear'",
+    "threw", "Simple Past von 'throw'",
+    "heard", "Simple Past von 'hear'",
     "news", "Nachrichten; Neuigkeiten",
+    */
+
+    "caught", "Simple Past von 'catch'",
+    "chose", "Simple Past von 'choose'",
+    "went", "Simple Past von 'go'",
+    "made", "Simple Past von 'make'",
+    "said", "Simple Past von 'say'",
+    "saw", "Simple Past von 'see'",
+    "sat", "Simple Past von 'sit'",
+    "swam", "Simple Past von 'swim'",
+    "took", "Simple Past von 'take'",
+    "thought", "Simple Past von 'think'",
+    "wrote", "Simple Past von 'write'",
 ]
