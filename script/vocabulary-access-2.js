@@ -122,4 +122,17 @@ const vocabulary = [
     "took", "Simple Past von 'take'",
     "thought", "Simple Past von 'think'",
     "wrote", "Simple Past von 'write'",
+
+    "came", "Simple Past von 'come'",
+    "did", "Simple Past von 'do'",
+    "fell", "Simple Past von 'fall'",
+    "felt", "Simple Past von 'feel'",
+    "got", "Simple Past von 'get'",
+    "had", "Simple Past von 'have'",
+    "knew", "Simple Past von 'know'",
+    "left", "Simple Past von 'leave'",
+    "ran", "Simple Past von 'run'",
+    "sent", "Simple Past von 'send'",
+    "sang", "Simple Past von 'sing'",
+    "won", "Simple Past von 'win'",
 ]
