@@ -132,4 +132,15 @@ const vocabulary = [
     "sent", "Simple Past von 'send'",
     "sang", "Simple Past von 'sing'",
     "won", "Simple Past von 'win'",
+
+    "around the library/the beach", "in der Bücherei/auf dem Strand umher",
+    "visit", "Besuch",
+    "meaning", "Bedeutung",
+    "(to) mean", "bedeuten",
+    "meant", "Simple Past von 'mean'",
+    "context", "(Text-, Satz-)Zusammenhang, Kontext",
+    "must", "müssen",
+    "(to) get sth.", "etwas verstehen, kapieren, mitbekommen",
+    "similar (to sth./sb.)", "(etwas/jm.) ähnlich",
+    "revision", "Wiederholung (des Lernstoffs)",
 ]
