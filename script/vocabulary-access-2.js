@@ -1,5 +1,5 @@
 const vocabulary = [
-    /*
+
     // Unit 1
     // p.8-9
     "summer", "Sommer",
@@ -85,10 +85,8 @@ const vocabulary = [
     "(to) think of sth.", "sich etwas ausdenken; an etwas denken",
     "another", "ein(e) andere(r, s); noch ein(e)",
     "(to) arrange", "anordnen",
-    */
 
     // Part B
-    /*
     "neighbour", "Nachbar/in",
     "note", "Notiz, Mitteilung",
     "tea", "leichte Nachmittags- oder Abendmahlzeit",
@@ -109,7 +107,6 @@ const vocabulary = [
     "threw", "Simple Past von 'throw'",
     "heard", "Simple Past von 'hear'",
     "news", "Nachrichten; Neuigkeiten",
-    */
 
     "caught", "Simple Past von 'catch'",
     "chose", "Simple Past von 'choose'",
