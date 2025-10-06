@@ -1,5 +1,5 @@
 const vocabulary = [
-
+    /*
     // Unit 1
     // p.8-9
     "summer", "Sommer",
@@ -107,6 +107,7 @@ const vocabulary = [
     "threw", "Simple Past von 'throw'",
     "heard", "Simple Past von 'hear'",
     "news", "Nachrichten; Neuigkeiten",
+    */
 
     "caught", "Simple Past von 'catch'",
     "chose", "Simple Past von 'choose'",
@@ -133,6 +134,7 @@ const vocabulary = [
     "sang", "Simple Past von 'sing'",
     "won", "Simple Past von 'win'",
 
+    /*
     "around the library/the beach", "in der Bücherei/auf dem Strand umher",
     "visit", "Besuch",
     "meaning", "Bedeutung",
@@ -143,4 +145,5 @@ const vocabulary = [
     "(to) get sth.", "etwas verstehen, kapieren, mitbekommen",
     "similar (to sth./sb.)", "(etwas/jm.) ähnlich",
     "revision", "Wiederholung (des Lernstoffs)",
+     */
 ]
