@@ -107,7 +107,6 @@ const vocabulary = [
     "threw", "Simple Past von 'throw'",
     "heard", "Simple Past von 'hear'",
     "news", "Nachrichten; Neuigkeiten",
-    */
 
     "caught", "Simple Past von 'catch'",
     "chose", "Simple Past von 'choose'",
@@ -134,7 +133,6 @@ const vocabulary = [
     "sang", "Simple Past von 'sing'",
     "won", "Simple Past von 'win'",
 
-    /*
     "around the library/the beach", "in der Bücherei/auf dem Strand umher",
     "visit", "Besuch",
     "meaning", "Bedeutung",
@@ -146,4 +144,41 @@ const vocabulary = [
     "similar (to sth./sb.)", "(etwas/jm.) ähnlich",
     "revision", "Wiederholung (des Lernstoffs)",
      */
+
+    // Part C
+    "(to) ring", "klingeln; läuten",
+    "text message, (kurz: text)", "SMS",
+    "Did you get my text?", "Hast du meine SMS bekommen?",
+    "inviation (to)", "Einladung (zu, nach)",
+    "(to) be allowed to do sth.", "etwas tun dürfen",
+    "(to) stay", "bleiben",
+    "easy", "einfach, leicht",
+    "difficult", "schwierig, schwer",
+    "when", "als",
+    "to", "um zu",
+    "(to) hit", "schlagen; treffen (auf); (Ball) schlagen gegen",
+    "(to) miss", "verpassen; verfehlen",
+    "Here you are.", "Bitte sehr./Hier bitte.",
+
+    "rang", "Simple Past von 'ring' (mit-, herbringen)",
+    "brought", "Simple Past von 'bring' (finden)",
+    "found", "Simple Past von 'find' (geben)",
+    "gave", "Simple Past von 'give' (geben)",
+    "grew", "Simple Past von 'grow' (anpflanzen, anbauen)",
+    "held", "Simple Past von 'hold' (halten)",
+    "met", "Simple Past von 'met' (treffen)",
+    "put", "Simple Past von 'put' (stellen, legen)",
+    "read", "Simple Past von 'read' (lesen)",
+    "told", "Simple Past von 'tell' (erzählen, berichten)",
+
+    "(to) roll", "rollen",
+    "against", "gegen",
+    "sure", "sicher",
+    "careful", "vorsichtig",
+    "Hold on a minute! (kurz: Hold on)", "Bleib/Bleiben Sie am Apparat.",
+    "(to) get in touch (with sb.)", "(mit jdm.) Kontakt aufnehmen, sich (mit jdm.) in Verbindung setzen",
+    "(to) stay in touch (with sb.)", "(mit jdm.) Kontakt halten, (mit jdm.) in Verbindung bleiben",
+    "free", "kostenlos",
+    "rules", "Regeln, Vorschrift",
+    "host family", "Gastfamilie",
 ]
