@@ -149,7 +149,7 @@ const vocabulary = [
     "(to) ring", "klingeln; läuten",
     "text message, (kurz: text)", "SMS",
     "Did you get my text?", "Hast du meine SMS bekommen?",
-    "inviation (to)", "Einladung (zu, nach)",
+    "invitation (to)", "Einladung (zu, nach)",
     "(to) be allowed to do sth.", "etwas tun dürfen",
     "(to) stay", "bleiben",
     "easy", "einfach, leicht",
