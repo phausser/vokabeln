@@ -180,7 +180,6 @@ const vocabulary = [
     "free", "kostenlos",
     "rules", "Regeln, Vorschrift",
     "host family", "Gastfamilie",
-    */
 
     // Part D
     "Skip didn't stop.", "Skip hörte nicht auf.",
@@ -255,5 +254,35 @@ const vocabulary = [
     "again and again", "immer wieder",
     "(to) turh sth. off", "etwas ausschalten",
     "my own film/room/...", "mein eigener Film/mein eigenes Zimmer/...",
-    "memory", "Erinnerung"
+    "memory", "Erinnerung",
+    */
+
+    // Unit 2 A school day
+    "this year's musical", "das diesjährige Musical",
+    "audition", "Vorsprechen, Vorsingen, Vorspielen",
+
+    "caller", "Anrufer/in",
+    "dancer", "Tänzer/in",
+    "fighter", "Kämpfer/in",
+    "helper", "Helfer/in",
+    "listener", "Zuhörer/in",
+    "reader", "Leser/in",
+    "runner", "Läufer/in",
+    "shopper", "(Ein-)käufer/in",
+    "singer", "Sänger/in",
+    "speaker", "Sprecher/in; Redner/in",
+    "worker", "Arbeiter/in",
+
+    "(to) queue", "Schlange stehen, sich anstellen",
+    "And guess what!", "Und stell dir/stellt euch vor! / Und weißt du/wisst ihr was?",
+    "I'm going to sing a song.", "Ich werde ein Lied singen. / Ich habe vor ein Lied zu singen.",
+    "by...", "von...",
+    "nervous", "nervös, aufgeregt",
+    "a bit", "ein bisschen, etwas",
+    "You should...", "Du solltest.../Ihr solltet...",
+    "side", "Seite",
+    "a few", "ein paar, einige",
+    "present", "Gegenwart",
+    "future", "Zukunft; zukünftige(r,s)",
+    "dialogue", "Dialog",
 ]
