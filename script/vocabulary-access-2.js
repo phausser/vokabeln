@@ -353,6 +353,7 @@ const vocabulary = [
     "fat", "dick, fett",
     "paw", "Pfote, Tatze",
     "stairs", "Treppe; Treppenstufen",
+    "what could be better", "Was könnte besser sein?",
 
     "clear", "klar, deutlich",
     "size", "Größe",
