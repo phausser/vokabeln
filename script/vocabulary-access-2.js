@@ -255,7 +255,6 @@ const vocabulary = [
     "(to) turh sth. off", "etwas ausschalten",
     "my own film/room/...", "mein eigener Film/mein eigenes Zimmer/...",
     "memory", "Erinnerung",
-    */
 
     // Unit 2 A school day
     "this year's musical", "das diesjährige Musical",
@@ -285,4 +284,85 @@ const vocabulary = [
     "present", "Gegenwart",
     "future", "Zukunft; zukünftige(r,s)",
     "dialogue", "Dialog",
+    */
+
+    // Part B
+    "(to) get ready for", "sich fertig machen (für); sich vorbereiten (auf)",
+    "mine", "meiner, meine, meins",
+    "worksheet", "Arbeitsblatt",
+    "(the) longest...", "der/die/das längste...; am längsten",
+    "(to) label", "beschriften, ettikettieren",
+    "label", "Beschriftung; Schild, Etikett",
+    "(to) get on", "vorankommen, zurechtkommen",
+    "(not) as big as", "(nicht) so groß wie",
+    "bigger than", "größer als",
+    "(to) get sth.", "(sich) etwas besorgen, (sich) etwas holen",
+    "ours", "unserer, unsere, unseres",
+    "awful", "schrecklich, fürchterlich",
+
+    // p.37
+    "mistake", "Fehler",
+    "square kilometre", "Quadratkilometer",
+
+    // p.38
+    "tall", "groß (Person); hoch (Gebäude)",
+    "(the) earth", "die Erde (Planet)",
+    "about", "ungefähr",
+    "plane", "Flugzeug",
+
+    // p.39
+    "(to) read aloud", "laut (vor)lesen",
+    "(to) make sure that...", "sich vergewissern, dass...; darauf achten, dass...; dafür sorgen, dass...",
+    "everything", "alles",
+    "(to) pause", "innehalten, eine Pause einlegen",
+    "scared", "verängstigt",
+    "(to) change", "(ver)ändern, sich (ver)ändern",
+
+    // Part C
+    "brilliant", "großartig, genial, glänzend",
+    "yours", "deiner, deine, deins; euer, eure, eures",
+    "hers", "ihrer, ihre, ihrs",
+    "lovely", "schön, hübsch, herrlich",
+    "even", "sogar",
+    "more beautiful (than)", "schöner (als)",
+    "(the) most beautiful", "der/die/das schönste...; am schönsten",
+    "so far", "bis jetzt; bis hierher",
+
+    // p.41
+    "stage", "Bühne",
+    "on my/your/their/... own", "allein",
+    "talented", "begabt, talentiert",
+    "(to) cheer", "jubeln",
+    "(to) clap", "(Beifall) klatschen",
+
+    // p.42
+    "cinema", "Kino",
+    "concert", "Konzert",
+    "recorder", "Blockflöte",
+    "theatre", "Theater",
+
+    // p.43
+    "syllable", "Silbe",
+    "fashion", "Mode",
+    "round the world", "um die Welt",
+    "town hall", "Rathaus",
+    "snow", "Schnee",
+
+    // p.44
+    "whose?", "wessen?",
+    "fat", "dick, fett",
+    "paw", "Pfote, Tatze",
+    "stairs", "Treppe; Treppenstufen",
+
+    "clear", "klar, deutlich",
+    "size", "Größe",
+    "correct", "richtig, korrekt",
+    "like this", "so",
+
+    // p.47
+    "(to) lie", "liegen",
+    "(to) wake sb. up", "jdn. (auf)wecken",
+    "lay", "Simple Past von lie",
+    "woke up", "Simple Past von wake up",
+    "shy", "schüchtern, scheu",
 ]
