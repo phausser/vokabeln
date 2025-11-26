@@ -255,6 +255,7 @@ const vocabulary = [
     "(to) turh sth. off", "etwas ausschalten",
     "my own film/room/...", "mein eigener Film/mein eigenes Zimmer/...",
     "memory", "Erinnerung",
+    */
 
     // Unit 2 A school day
     "this year's musical", "das diesjährige Musical",
@@ -284,7 +285,6 @@ const vocabulary = [
     "present", "Gegenwart",
     "future", "Zukunft; zukünftige(r,s)",
     "dialogue", "Dialog",
-    */
 
     // Part B
     "(to) get ready for", "sich fertig machen (für); sich vorbereiten (auf)",
