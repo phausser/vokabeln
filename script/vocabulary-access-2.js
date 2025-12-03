@@ -255,7 +255,6 @@ const vocabulary = [
     "(to) turh sth. off", "etwas ausschalten",
     "my own film/room/...", "mein eigener Film/mein eigenes Zimmer/...",
     "memory", "Erinnerung",
-    */
 
     // Unit 2 A school day
     "this year's musical", "das diesjährige Musical",
@@ -366,4 +365,29 @@ const vocabulary = [
     "lay", "Simple Past von lie",
     "woke up", "Simple Past von wake up",
     "shy", "schüchtern, scheu",
+    */
+
+    "(to) stick sth. into sth.", "etwas in etwas stechen",
+    "fork", "Gabel",
+    "knife, pl. knives", "Messer",
+    "spoon", "Löffel",
+    "(to) drop sth.", "etwas fallen lassen",
+    "drama", "Schauspiel, darstellende Kunst",
+    "gel", "Gel",
+    "sunglasses", "Sonnenbrille",
+    "glasses", "Brille",
+    "arm", "Arm",
+    "flash", "Lichtblitz",
+    "head", "Kopf",
+    "(to) shake", "schütteln",
+    "(to) beep", "piepen",
+    "(to) wish", "wünschen",
+
+    // p.49
+    "(to) stand", "stehen; sich hinstellen",
+    "most people/most of them", "die meisten Menschen/die meisten von ihnen",
+    "one by one", "einer nach dem anderen",
+    "except", "außer, bis auf",
+    "good-looking", "gutaussehend",
+    "Anyway...", "Jedenfalls..., Wie dem auch sei..., Aber egal...",
 ]
