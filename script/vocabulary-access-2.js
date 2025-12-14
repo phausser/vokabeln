@@ -365,7 +365,6 @@ const vocabulary = [
     "lay", "Simple Past von lie",
     "woke up", "Simple Past von wake up",
     "shy", "schüchtern, scheu",
-    */
 
     "(to) stick sth. into sth.", "etwas in etwas stechen",
     "fork", "Gabel",
@@ -390,4 +389,43 @@ const vocabulary = [
     "except", "außer, bis auf",
     "good-looking", "gutaussehend",
     "Anyway...", "Jedenfalls..., Wie dem auch sei..., Aber egal...",
+    */
+
+    // Unit 3
+    "out and about", "unterwegs",
+    "opposite", "gegenüber (von)",
+    "post office", "Postamt",
+    "station", "Bahnhof",
+    "church", "Kirche",
+    "roundabout", "Kreisverkehr",
+    "on the corner of Church Road and London Road", "Church Road, Ecke London Road",
+    "cross", "überqueren, kreuzen, sich kreuzen",
+    "(to) turn left/right", "(nach) links/rechts abbiegen",
+    "straight on", "geradeaus weiter",
+    "past", "vorbei (an), vorüber (an)",
+    "Excuse me, ...", "Entschuldigung, .../Entschuldigen Sie, ...",
+    "(to) tell sb. the way (to)", "jmd den Weg (nach ...) beschreiben",
+    "(to) ask sb. the way", "jmd nach dem Weg fragen",
+    "visitor", "Besucher/in, Gast",
+
+    // Part A
+    "pedestrian zone", "Fußgängerzone",
+    "after", "nachdem",
+    "just after ...", "gleich nachdem ..., kurz nachdem...",
+    "(to) cost", "kosten",
+    "cost", "Simple Past von 'cost' (kosten)",
+    "(to) close", "schließen, zumachen",
+    "chocolate", "Praline",
+    "(to) need to do sth.", "etwas tun müssen",
+    "flower", "Blume, Blüte",
+    "stall", "Marktstand",
+    "plastic", "Plastik, Kunststoff",
+    "(to) break", "zerbrechen, kaputt machen",
+    "broke", "Simple Past von 'break' (zerbrechen, kaputt machen)",
+    "felt pen",  "Filzstift",
+    "as", "als, während",
+    "cash desk", "Kasse (in Geschäften)",
+    "shop assistant", "Verkäufer/in",
+    "set", "Satz, Set",
+    "Have you got...?", "Hast du/Haben Sie...?",
 ]
