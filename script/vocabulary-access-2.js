@@ -428,4 +428,16 @@ const vocabulary = [
     "shop assistant", "Verkäufer/in",
     "set", "Satz, Set",
     "Have you got...?", "Hast du/Haben Sie...?",
+
+    "change", "Wechselgeld",
+    "(to) know about sth.", "sich mit etw. auskennen; über etw. Bescheid wissen",
+    "gram", "Gramm",
+    "packet", "Packung, Päckchen",
+    "tin", "Dose",
+    "juice", "Saft",
+    "tomato (pl. tomatoes)", "Tomate",
+    "sock", "Socke",
+    "(to) scan a text", "einen Text schnell nach bestimmten Wörtern/Informationen absuchen",
+    "skill", "Fertigkeit",
+    "souvenir", "Andenken, Souvenir",
 ]
