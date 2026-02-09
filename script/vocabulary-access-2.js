@@ -389,7 +389,6 @@ const vocabulary = [
     "except", "außer, bis auf",
     "good-looking", "gutaussehend",
     "Anyway...", "Jedenfalls..., Wie dem auch sei..., Aber egal...",
-    */
 
     // Unit 3
     "out and about", "unterwegs",
@@ -466,4 +465,31 @@ const vocabulary = [
     "crossing", "Kreuzung",
     "roundabout", "Kreisverkehr",
     "traffic light", "Ampel",
+    */
+
+    // Part B
+    "magic", "magisch, Zauber-",
+    "(to) make sb. sth.", "jn. zu etwas machen",
+    "(to) fight sb. (simple past: fought)", "jn. bekämpfen, gegen jn. kämpfen",
+    "prize", "Preis, Gewinn",
+    "just then", "genau in dem Moment; gerade dann",
+    "he shook his head slowly", "er schüttelte langsam den Kopf",
+    "wall", "Mauer, Wand",
+    "role", "Role (in einem Theaterstück, Film)",
+    "as kung fu master", "als Kung-Fu-Meister",
+    "in a loud/soft voice", "mit lauter/sanfter Stimme",
+    "up and down", "auf und ab; rauf und runter",
+    "good", "brav",
+    "responsible", "verantwortlich",
+    "(to) look after sb.", "auf jn. aufpassen, sich um jn. kümmern",
+    "well", "gut",
+    "(to) worry (about)", "sich Sorgen machen (wegen, um)",
+    "(to) happen (to)", "geschehen, passieren (mit)",
+    "(to) describe sth. (to) sb.)", "(jm.) etwas beschreiben",
+    "irregular", "unregelmäßig",
+    "topic", "Thema, Themengebiet",
+    "(to) highlight", "hervorheben, markieren (mit Textmarker)",
+    "example", "Beispiel",
+    "(to) underline", "unterstreichen",
+    "draft", "Entwurf",
 ]
