@@ -465,7 +465,6 @@ const vocabulary = [
     "crossing", "Kreuzung",
     "roundabout", "Kreisverkehr",
     "traffic light", "Ampel",
-    */
 
     // Part B
     "magic", "magisch, Zauber-",
@@ -510,5 +509,33 @@ const vocabulary = [
     "race", "Rennen",
     "change", "Änderung, Veränderung",
     "subject", "Subjekt",
+    */
+
+    // Master Wu and the magic book
     "broken", "zerbrochen, kaputt; gebrochen",
+    "that's why", "deshalb, darum",
+    "gate", "Tor, Pforte, Gatter",
+    "Cut!", "Schnitt! (beim Filmen)",
+    "(to) cut", "schneiden",
+    "cut", "Simple past von 'cut'",
+    "(to) disappear", "verschwinden",
+    "up here", "hier oben; nach hier oben",
+    "roof", "Dach",
+    "view (of)", "Aussicht, Blick (auf)",
+    "shore", "Ufer (eines Sees), Strand",
+    "further", "weiter",
+    "hole", "Loch",
+    "up to", "bis (zu)",
+    "waist", "Taille",
+    "the only...", "der/die/das einzige...; die einzigen...",
+    "hurt", "verletzt",
+    "leg", "Bein",
+    "wood", "Holz",
+    "body", "Körper",
+    "over to...", "hinüber zu/nach...",
+    "thanks to Maya", "dank Maya",
+    "(to) be cold", "frieren",
+    "lip", "Lippe",
+    "(to) hug sb.", "jn. umarmen",
+    "(to) rescue", "retten",
 ]
