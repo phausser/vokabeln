@@ -492,6 +492,7 @@ const vocabulary = [
     "example", "Beispiel",
     "(to) underline", "unterstreichen",
     "draft", "Entwurf",
+    */
 
     "back", "zurück",
     "front", "vorne",
@@ -509,7 +510,6 @@ const vocabulary = [
     "race", "Rennen",
     "change", "Änderung, Veränderung",
     "subject", "Subjekt",
-    */
 
     // Master Wu and the magic book
     "broken", "zerbrochen, kaputt; gebrochen",
