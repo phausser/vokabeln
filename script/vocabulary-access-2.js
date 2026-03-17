@@ -492,7 +492,6 @@ const vocabulary = [
     "example", "Beispiel",
     "(to) underline", "unterstreichen",
     "draft", "Entwurf",
-    */
 
     "back", "zurück",
     "front", "vorne",
@@ -538,4 +537,23 @@ const vocabulary = [
     "lip", "Lippe",
     "(to) hug sb.", "jn. umarmen",
     "(to) rescue", "retten",
+     */
+
+    // Unit 4 On Dartmoor
+    "background", "Hintergrund",
+    "foreground", "Vordergrund",
+    "at the bottom (of)", "unten, am unteren Ende (von)",
+    "countryside", "Landschaft, ländliche Gegend",
+    "(to) begin", "beginnen, anfangen",
+    "began", "Simple Past von 'begin' (beginnen, anfangen)",
+    "field", "Feld, Acker, Weide",
+    "footprint", "Fußabdruck",
+    "foot", "Fuß",
+    "grass", "Gras; Rasen",
+    "mist", "(leichetr) Nebel, Dunst(schleier)",
+    "pony", "Pony",
+    "sheep", "Schaf",
+    "goat", "Ziege",
+    "etc. (et cetera)", "usw. (und so weiter)",
+    "poem", "Gedicht",
 ]
