@@ -509,6 +509,7 @@ const vocabulary = [
     "race", "Rennen",
     "change", "Änderung, Veränderung",
     "subject", "Subjekt",
+     */
 
     // Master Wu and the magic book
     "broken", "zerbrochen, kaputt; gebrochen",
@@ -537,7 +538,6 @@ const vocabulary = [
     "lip", "Lippe",
     "(to) hug sb.", "jn. umarmen",
     "(to) rescue", "retten",
-     */
 
     // Unit 4 On Dartmoor
     "background", "Hintergrund",
