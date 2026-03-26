@@ -509,7 +509,6 @@ const vocabulary = [
     "race", "Rennen",
     "change", "Änderung, Veränderung",
     "subject", "Subjekt",
-     */
 
     // Master Wu and the magic book
     "broken", "zerbrochen, kaputt; gebrochen",
@@ -556,4 +555,43 @@ const vocabulary = [
     "goat", "Ziege",
     "etc. (et cetera)", "usw. (und so weiter)",
     "poem", "Gedicht",
+     */
+
+    // Part B
+    "lamb", "Lamm",
+    "barn", "Scheune",
+    "bacon", "Schinkenspeck",
+    "egg", "Ei",
+    "a glass (of)", "ein Glas",
+    "ever", "jemals",
+    "delicious", "köstlich, lecker",
+    "Have you ever been to...?", "Bist du jemals in ... gewesen?",
+    "Have you ... yet?", "Hast du schon ...?",
+    "I'd love to ...", "Ich würde sehr gern ...",
+    "dirty", "schmutzig",
+    "a pair (of)", "ein Paar",
+    "boot", "Stiefel",
+    "(to) lose, lost, lost", "verlieren",
+    "strong", "stark, kräftig",
+    "anything?", "(irgend)etwas?",
+    "sweet", "süß",
+    "heavy", "schwer (von Gewicht)",
+    "one more photo", "noch ein Foto; ein weiteres Foto",
+    "quick", "schnell",
+    "(to) be missing", "fehlen",
+    "(to) mark sth. up", "etwas markieren, kennzeichnen",
+    "(to) decide", "beschließen, sich entscheiden",
+    "waterfall", "Wasserfall",
+    "(to) take, took, taken", "(Zeit) brauchen; dauern",
+    "stamp", "Stempel",
+
+    "(to) choose, chose, chosen", "Formen von (aus)wählen",
+    "(to) drink, drank, drunk", "Formen von trinken",
+    "(to) find, found, found", "Formen von finden",
+    "(to) hit, hit, hit", "Formen von schlagen",
+    "(to) read, read, read", "Formen von lesen",
+    "(to) ride, rode, ridden", "Formen von reiten",
+    "(to) sell, sold, sold", "Formen von verkaufen",
+    "(to) show, showed, shown", "Formen von zeigen",
+    "(to) sleep, slept, slept", "Formen von schlafen",
 ]
