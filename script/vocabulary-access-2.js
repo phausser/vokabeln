@@ -537,6 +537,7 @@ const vocabulary = [
     "lip", "Lippe",
     "(to) hug sb.", "jn. umarmen",
     "(to) rescue", "retten",
+    */
 
     // Unit 4 On Dartmoor
     "background", "Hintergrund",
@@ -555,7 +556,6 @@ const vocabulary = [
     "goat", "Ziege",
     "etc. (et cetera)", "usw. (und so weiter)",
     "poem", "Gedicht",
-     */
 
     // Part B
     "lamb", "Lamm",
@@ -594,4 +594,56 @@ const vocabulary = [
     "(to) sell, sold, sold", "Formen von verkaufen",
     "(to) show, showed, shown", "Formen von zeigen",
     "(to) sleep, slept, slept", "Formen von schlafen",
+
+    // Part C
+    "everywhere", "überall",
+    "no sign of...", "keine Spur von...",
+    "for ever", "(für) immer, ewig",
+    "for miles", "meilenweit",
+    "(to) hurt, hurt, hurt", "schmerzen, wehtun; verletzen",
+    "not ...  any more", "nicht mehr",
+    "accross the moor/the street", "(quer) über das Moor/die Straße",
+    "impossible", "unmöglich",
+    "(to) pass sth./sb", "an etwas/jm. vorbeigehen/vorbeifahren",
+    "path", "Pfad, Weg",
+    "raincoat", "Regenmantel",
+    "coat", "Mantel",
+    "until", "bis",
+
+    "jigsaw", "Puzzle",
+    "verse", "Vers, Strophe",
+    "(to) train", "trainieren",
+    "otter", "Otter",
+    "deer, (pl. deer", "Reh, Hirsch",
+    "adder", "Kreuzotter",
+
+    // the tulip garden
+    "tulip", "Tulpe",
+    "adventure", "Abenteuer",
+    "(to) nod", "nicken",
+    "(to) wander", "herumlaufen; herumirren",
+    "cocoa", "Kakao",
+    "both", "beide",
+    "fireplace", "Kamin",
+    "a mug (of)", "ein Becher",
+    "ruin", "Ruine",
+    "ground", "(Erd-)Boden",
+    "pretty", "hübsch",
+    "cottage", "Häuschen, Cottage",
+    "one night/day",
+    "(to) believe", "glauben",
+    "kind", "freundlich, nett",
+    "(to) look closely", "genau hinschauen",
+    "honour", "Ehre",
+    "(to) die", "sterben",
+    "a nearby town", "eine nahegelegene Stadt",
+    "instead", "stattdessen",
+    "not ... either",
+    "fence", "Zaun",
+    "around ...", "um ... (herum)",
+    "(to) grow, grew, grown", "wachsen",
+    "(to) plant", "pflanzen",
+    "not even", "(noch) nicht einmal",
+    "grave", "Grab",
+    "(to) appear", "erscheinen, auftauchen",
 ]
