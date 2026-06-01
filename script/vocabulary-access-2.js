@@ -537,7 +537,6 @@ const vocabulary = [
     "lip", "Lippe",
     "(to) hug sb.", "jn. umarmen",
     "(to) rescue", "retten",
-    */
 
     // Unit 4 On Dartmoor
     "background", "Hintergrund",
@@ -646,4 +645,54 @@ const vocabulary = [
     "not even", "(noch) nicht einmal",
     "grave", "Grab",
     "(to) appear", "erscheinen, auftauchen",
+    */
+
+    // Unit 5
+    "(to) celebrate", "feiern",
+    "celebration", "Feier",
+    "parade", "Parade, Umzug",
+    "mayor", "Bürgermeister/in",
+    "(to) light, lit, lit", "anzünden",
+    "candle", "Kerze",
+    "(to) blow sth. out, blew, blown", "etwas auspusten, ausblasen",
+    "New Year's Eve", "Silvester",
+    "(to) stay up late", "lange aufbleiben",
+    "fireworks", "Feuerwerk",
+    "firework", "Feuerwerkskörper",
+    "(to) dress up", "sich verkleiden, sich schick anziehen",
+    "costume", "Kostüm, Verkleidung",
+    "special", "besondere(r, s)",
+    "bucket", "Eimer",
+    "crowd", "(Menschen-)Menge",
+    "festival", "Fest, Festival",
+    "flag", "Fahne, Flagge",
+    "(to) raise money (for sth.)", "Geld sammeln (für etwas)",
+    "charity", "Wohlfahrtsorganisation; Wohltätigkeit, wohltätige Zwecke",
+    "(to) take part in sth.", "an etwas teilnehmen",
+    "(to) plan", "planen",
+    "theme", "Thema",
+
+    // Part A
+    "juggler", "Jongleur/in",
+    "(to) juggle sth.", "mit etwas jonglieren",
+    "(to) drive, drove, driven", "(mit dem Auto) fahren",
+    "(to) get out (of a car)", "(aus einem Auto) aussteigen",
+    "(to) put sth. on", "etwas anziehen (Kleidung); etwas aufsetzen (Hut, Helm)",
+    "(to) put sth. off", "etwas ausziehen (Kleidung); etwas absetzen (Hut, Helm)",
+    "choir", "Chor",
+    "nut till three", "erst um drei, nicht vor drei",
+    "probably", "wahrscheinlich",
+    "artist", "Künstler/in",
+    "torch", "Fackel",
+    "(to) pass sth. (around)", "etwas (herum)reichen",
+    "encore", "Zugabe",
+    "(to) promise", "versprechen",
+
+    /*
+    "(to) fly, flew, flown", "fliegen",
+    "(to) take notes", "(sich) Notizen machen (beim Lesen oder Zuhören)",
+    "symbol", "Symbol",
+    "abbrevation", "Abkürzung",
+    "e.g.", "z.B. (zum Beispiel)",
+    */
 ]
