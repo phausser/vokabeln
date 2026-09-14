@@ -772,7 +772,7 @@ const vocabulary = [
     "toe", "Zeh",
     "tongue", "Zunge",
     "stomach", "Magen",
-    "(to) have a toothache/a headache/a sore throat", "Zahnschmerzen/Kopfschmerzen/Halsschmerzen haben",
+    "(to) have a toothache / a headache / a sore throat", "Zahnschmerzen / Kopfschmerzen / Halsschmerzen haben",
     "tooth, pl. teeth", "Zahn",
     "(to) have temperature", "Fieber haben",
     "(to) have a cough", "Husten haben",
