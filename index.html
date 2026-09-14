@@ -5,12 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vokabeln</title>
     <link rel="stylesheet" href="style/style.css">
-    <script src="script/vocabulary-access-2.js"></script>
 </head>
 <body>
 <div id="app">
     <div id="deck-count"></div>
 </div>
-<script src="script/app.js"></script>
+<script>
+    const vocabularyScript = document.createElement('script');
+    vocabularyScript.src = new URLSearchParams(window.location.search).has('fr')
+        ? 'script/vocabulair-1.js'
+        : 'script/vocabulary-access-2.js';
+    vocabularyScript.onload = () => {
+        const appScript = document.createElement('script');
+        appScript.src = 'script/app.js';
+        document.body.appendChild(appScript);
+    };
+    document.body.appendChild(vocabularyScript);
+</script>
 </body>
 </html>
