@@ -1,4 +1,5 @@
 const vocabulary = [
+    /*
     "un", "Eins",
     "deux", "Zwei",
     "trois", "Drei",
@@ -41,4 +42,28 @@ const vocabulary = [
     "Au revoir!", "Auf Wiedersehen!",
     "voilà", "da ist/das ist, da sind /das sind",
     "Bonjour les amis!", "Guten Tag, Freunde!",
+    */
+
+    "Paris", "Hauptstadt von Frankreich",
+    "la tour Eiffel", "der Eiffelturm",
+    "une place", "ein Platz",
+    "un parc", "ein Park",
+    "une station", "eine Station; eine Haltestelle",
+    "le métro", "die U-Bahn",
+    "une rue", "eine Straße",
+    "un café", "ein Café",
+    "un quartier", "ein Stadtviertel",
+    "cool", "cool",
+    "Où est...?", "Wo ist...?",
+    "on est", "man ist; wir sind",
+    "là", "da, dort",
+    "maman", "Mama; Mutti",
+    "madame...", "Frau...",
+    "Attention!", "Achtung!; Vorsicht!",
+    "Pardon!", "Verzeihung!; Entschuldigung!",
+    "je suis", "ich bin",
+    "un ami/une amie", "ein Freund/eine Freundin",
+    "de/d'", "aus; von",
+    "un voisin/une voisine", "ein Nachbar/eine Nachbarin",
+    "tu es", "du bist",
 ]
