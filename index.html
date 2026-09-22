@@ -11,8 +11,11 @@
     <div id="deck-count"></div>
 </div>
 <script>
+    const frenchMode = new URLSearchParams(window.location.search).has('fr');
+    if (frenchMode) document.body.classList.add('fr');
+
     const vocabularyScript = document.createElement('script');
-    vocabularyScript.src = new URLSearchParams(window.location.search).has('fr')
+    vocabularyScript.src = frenchMode
         ? 'script/vocabulair-1.js'
         : 'script/vocabulary-access-2.js';
     vocabularyScript.onload = () => {

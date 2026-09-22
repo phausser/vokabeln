@@ -12,6 +12,11 @@ body {
     background-size: auto;
 }
 
+body.fr {
+    background-color: #f7f4ef;
+    background-image: url('../img/motif.png');
+}
+
 #app {
     position: relative;
     width: 300px;
@@ -97,6 +102,10 @@ body {
     font-size: 24px;
     color: #fff;
     font-weight: bold;
+}
+
+body.fr #deck-count {
+    color: #1e3a5f;
 }
 
 .swipe-left {
