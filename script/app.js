@@ -1,3 +1,5 @@
+const invert = new URLSearchParams(window.location.search).has('i');
+
 const vocab = [];
 for (let i = 0; i < vocabulary.length - 1; i += 2) {
     vocab.push({ en: vocabulary[i], de: vocabulary[i + 1] });
@@ -26,9 +28,11 @@ function createCard(item, stackIndex = 0) {
     if (stackIndex > 0) {
         card.classList.add(`stack-${stackIndex}`);
     }
+    const prompt = invert ? item.en : item.de;
+    const answer = invert ? item.de : item.en;
     card.innerHTML = `
-                <div class="front">${item.de}</div>
-                <div class="back">${item.en}</div>
+                <div class="front">${prompt}</div>
+                <div class="back">${answer}</div>
             `;
 
     if (stackIndex === 0) {
@@ -162,8 +166,9 @@ function dragEnd() {
 }
 
 function getCurrentItem() {
-    const de = currentCards[0].querySelector('.front').textContent;
-    return vocab.find(v => v.de === de);
+    const shown = currentCards[0].querySelector('.front').textContent;
+    const key = invert ? 'en' : 'de';
+    return vocab.find(v => v[key] === shown);
 }
 
 document.addEventListener('keydown', function(e) {
@@ -172,14 +177,16 @@ document.addEventListener('keydown', function(e) {
         const selected = shuffled.slice(0, 20);
         const printWindow = window.open('', '', 'width=400,height=600');
 
+        const promptKey = invert ? 'en' : 'de';
+        const answerKey = invert ? 'de' : 'en';
         printWindow.document.write('<ol style="break-after:page">');
-        selected.forEach((item, i) => {
-            printWindow.document.write(`<li>${item.de}</li>`);
+        selected.forEach((item) => {
+            printWindow.document.write(`<li>${item[promptKey]}</li>`);
         });
         printWindow.document.write('</ol>');
         printWindow.document.write('<ol>');
-        selected.forEach((item, i) => {
-            printWindow.document.write(`<li>${item.en}</li>`);
+        selected.forEach((item) => {
+            printWindow.document.write(`<li>${item[answerKey]}</li>`);
         });
         printWindow.document.write('</ol>');
         printWindow.document.close();
