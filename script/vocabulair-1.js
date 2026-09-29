@@ -1,5 +1,5 @@
 const vocabulary = [
-    /*
+    "zéro", "Null",
     "un", "Eins",
     "deux", "Zwei",
     "trois", "Drei",
@@ -21,6 +21,7 @@ const vocabulary = [
     "dix-neuf", "Neunzehn",
     "vingt", "Zwanzig",
 
+    /*
     "Bienvenue", "Willkommen",
     "Bonjour", "Guten Tag",
     "je m'appelle", "Ich heiße",
@@ -42,7 +43,6 @@ const vocabulary = [
     "Au revoir!", "Auf Wiedersehen!",
     "voilà", "da ist/das ist, da sind /das sind",
     "Bonjour les amis!", "Guten Tag, Freunde!",
-    */
 
     "Paris", "Hauptstadt von Frankreich",
     "la tour Eiffel", "der Eiffelturm",
@@ -66,4 +66,49 @@ const vocabulary = [
     "de/d'", "aus; von",
     "un voisin/une voisine", "ein Nachbar/eine Nachbarin",
     "tu es", "du bist",
+    */
+
+    "un chat", "ein Katze",
+    "il est", "er ist",
+    "sympa", "nett; toll",
+    "on fait un tour", "wir drehen eine Runde",
+    "Viens!", "Komm! (Aufforderung)",
+    "d'accord", "einverstanden; okay",
+    "papa", "Papa",
+    "Regarde!", "Schau! (Aufforderung); Sieh mal!",
+    "ici", "hier; hierher",
+    "non", "nein",
+    "une question", "eine Frage",
+    "une fille", "ein Mädchen; eine Tochter",
+    "un copain/une copine", "ein Freund/eine Freundin",
+    "une dame", "eine Dame; eine Frau",
+    "un monsieur", "ein Herr; ein Mann",
+    "un garçon", "ein Junge",
+    "Allez!", "Los! (Aufforderung)",
+    "il", "er",
+    "elle", "sie",
+
+    "un perroquet", "ein Papagei",
+    "être", "sein",
+    "avec", "mit",
+    "dans", "in",
+    "Tiens!", "Sieh mal da!",
+    "C'est quoi ça?", "Was ist (denn) das?",
+    "ça", "das",
+    "un portable", "ein Handy; ein Mobiltelefon",
+    "mais", "aber",
+    "C'est qui?", "Wer ist das?",
+    "mamie", "Omi (ugs.)",
+    "super", "toll; super",
+    "j'ai douze ans", "ich bin zwölf (Jahre alt)",
+    "un frère", "ein Bruder",
+    "une soeur", "eine Schwester",
+    "Il/Elle a onze ans", "Er/Sie ist elf (Jahre alt)",
+    "aussi", "auch",
+    "alors", "nun; jetzt; dann",
+    "déjà", "schon",
+    "pour", "für",
+    "ce sont", "das sind",
+    "une réponse", "eine Antwort",
+    "Coucou!", "Kuckuck!; Hallo!",
 ]
