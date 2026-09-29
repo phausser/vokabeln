@@ -1,5 +1,5 @@
 const vocabulary = [
-    "zéro", "Null",
+   /* "zéro", "Null",
     "un", "Eins",
     "deux", "Zwei",
     "trois", "Drei",
@@ -19,7 +19,7 @@ const vocabulary = [
     "dix-sept", "Siebzehn",
     "dix-huit", "Achtzehn",
     "dix-neuf", "Neunzehn",
-    "vingt", "Zwanzig",
+    "vingt", "Zwanzig",*/
 
     /*
     "Bienvenue", "Willkommen",
