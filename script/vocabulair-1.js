@@ -1,5 +1,5 @@
 const vocabulary = [
-   /* "zéro", "Null",
+   "zéro", "Null",
     "un", "Eins",
     "deux", "Zwei",
     "trois", "Drei",
@@ -19,9 +19,8 @@ const vocabulary = [
     "dix-sept", "Siebzehn",
     "dix-huit", "Achtzehn",
     "dix-neuf", "Neunzehn",
-    "vingt", "Zwanzig",*/
+    "vingt", "Zwanzig",
 
-    /*
     "Bienvenue", "Willkommen",
     "Bonjour", "Guten Tag",
     "je m'appelle", "Ich heiße",
@@ -66,7 +65,6 @@ const vocabulary = [
     "de/d'", "aus; von",
     "un voisin/une voisine", "ein Nachbar/eine Nachbarin",
     "tu es", "du bist",
-    */
 
     "un chat", "ein Katze",
     "il est", "er ist",
