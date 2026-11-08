@@ -1,5 +1,6 @@
 const vocabulary = [
-   "zéro", "Null",
+   /*
+    "zéro", "Null",
     "un", "Eins",
     "deux", "Zwei",
     "trois", "Drei",
@@ -109,4 +110,23 @@ const vocabulary = [
     "ce sont", "das sind",
     "une réponse", "eine Antwort",
     "Coucou!", "Kuckuck!; Hallo!",
+    */
+
+    // Unité 2
+    "une activité", "eine Freizeitbeschäftigung / eine Aktivität",
+    "aimer", "jdn./etw. lieben / mögen",
+    "le sport", "der Sport",
+    "la danse", "der Tanz; das Tanzen",
+    "une chanson", "ein Lied",
+    "adorer qn/qc", "jdn./etw. sehr gern mögen",
+    "un jeu vidéo", "ein Computerspiel / Computerspiele",
+    "détester qn/qc", "jdn./etw. verabscheuen; etwas überhaupt nicht mögen",
+    "la natation", "das Schwimmen",
+    "C'est nul!", "Das ist blöd!",
+    "un livre", "ein Buch",
+    "le théâtre", "das Theater",
+    "le ping-pong", "das Tischtennis",
+    "la musique", "die Musik",
+    "l'escalade", "das Klettern",
+    "le foot", "der Fußball (als Sportart)",
 ]
