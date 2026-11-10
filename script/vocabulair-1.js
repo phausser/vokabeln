@@ -110,7 +110,6 @@ const vocabulary = [
     "ce sont", "das sind",
     "une réponse", "eine Antwort",
     "Coucou!", "Kuckuck!; Hallo!",
-    */
 
     // Unité 2
     "une activité", "eine Freizeitbeschäftigung / eine Aktivität",
@@ -129,4 +128,60 @@ const vocabulary = [
     "la musique", "die Musik",
     "l'escalade", "das Klettern",
     "le foot", "der Fußball (als Sportart)",
+    */
+
+    "chez", "bei jdm.",
+    "les Bertucat", "die Bertucats (Familienname)",
+    "écouter", "jdm. zuhören/etw. anhören",
+    "entrer", "eintreten; hereinkommen",
+    "le silence", "die Ruhe; die Stille",
+    "s'il te plaît", "bitte (wenn man jdn. duzt)",
+    "s'il vous plaît", "bitte (wenn man jdn. siezt)",
+    "travailler", "arbeiten",
+    "danser", "tanzen",
+    "en silence", "still; ohne Lärm zu machen",
+    "un casque", "ein Kopfhörer",
+    "tard", "spät",
+    "plus tard", "später",
+    "une chambre", "ein (Schlaf-)Zimmer",
+    "jouer", "spielen",
+    "regarder qn/qc", "jdn./etwas ansehen; etw. betrachten",
+    "un match", "ein Spiel; ein Wettkampf",
+    "Ah, bon?", "Ach ja?; Wirklich?",
+    "ensemble", "gemeinsam; zusammen",
+    "un but", "ein Ziel; ein Tor (beim Ballspiel)",
+
+    // A4
+    "chanter", "singen",
+    "chercher", "jdm./etw. suchen",
+    "trouver", "jdn./etw. finden",
+    "parler", "sprechen",
+
+    // A7
+    "ou", "oder",
+
+    // A10
+    "le rock", "die Rockmusik",
+    "le rap", "der Rap",
+    "la pop", "der Pop",
+    "le hip-hop", "der Hip-Hop",
+    "l'électro", "die Elektro-Musik",
+    "la musique classique", "die klassische Musik",
+    "Qu'est-ce que...?", "Was...?",
+
+    // B1
+    "il y a", "es gibt; es ist; es sind",
+    "Qu'est-ce qu'il y a ?", "Was gibt es?",
+    "un collège", "ein Collège",
+    "au collège", "im Collège",
+    "un cour", "ein (Schul-)Hof",
+    "un élève", "ein Schüler / eine Schülerin",
+    "un ballon", "ein Ball",
+    "lá-bas", "dort(hin); da drüben",
+    "encore", "noch",
+    "une table", "ein Tisch",
+    "une affiche", "ein Plakat; ein Poster",
+    "un stylo", "ein Füller; ein Kuli",
+    "un sac", "eine Tasche",
+    "un cahier", "ein Heft",
 ]
