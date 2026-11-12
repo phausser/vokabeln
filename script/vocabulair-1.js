@@ -110,7 +110,8 @@ const vocabulary = [
     "ce sont", "das sind",
     "une réponse", "eine Antwort",
     "Coucou!", "Kuckuck!; Hallo!",
-
+*/
+   
     // Unité 2
     "une activité", "eine Freizeitbeschäftigung / eine Aktivität",
     "aimer", "jdn./etw. lieben / mögen",
@@ -128,7 +129,6 @@ const vocabulary = [
     "la musique", "die Musik",
     "l'escalade", "das Klettern",
     "le foot", "der Fußball (als Sportart)",
-    */
 
     "chez", "bei jdm.",
     "les Bertucat", "die Bertucats (Familienname)",
