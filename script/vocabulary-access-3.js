@@ -1,4 +1,5 @@
 const vocabulary = [
+    /*
     // Unit 1
     "the best thing about...", "das Beste an...",
 
@@ -74,4 +75,31 @@ const vocabulary = [
     "instead of", "anstelle von, statt",
     "worth", "wert",
     "(to) roar", "brüllen",
+    */
+
+    // Unit 2
+    // Part A
+    "empty", "leer",
+    "scientist", "Naturwissenschaftler/in",
+    "(to) study", "studieren; untersuchen, beobachten; lernen",
+    "workshop", "Werkstatt",
+    "carpenter", "Tischler/in, Zimmerer/Zimmerin",
+    "furniture", "Möbel",
+    "oil", "Öl",
+    "hammer", "Hammer",
+    "a piece of...", "ein Stück...",
+    "(to) come over (to)", "herüberkommen (zu/nach), vorbeikommen (bei)",
+    "(to) make fun of sb/sth", "sich am jn/etwas lustig machen",
+    "(to) give up", "aufgeben",
+    "(to) cook", "kochen, zubereiten",
+    "tonight", "heute Nacht, heute Abend",
+    "actor", "Schauspieler/in",
+    "painter", "Maler/in",
+    "soldier", "Soldat/in",
+    "architect", "Architekt/in",
+    "astronaut", "Astronaut/in",
+    "engineer", "Ingenieur/in",
+    "hairdresser", "Friseur/in",
+    "musiscian", "Musiker/in",
+    "official", "Beamte(r)/Beamtin",
 ]
